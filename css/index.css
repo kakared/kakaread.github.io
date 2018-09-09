@@ -1,0 +1,135 @@
+.kk-tit{
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis;
+    font-weight: 300;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.kk-p{
+    color: #333;
+    font-size: 13px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.kk-btn a{
+    display: inline-block;
+    min-width: 140px;
+    line-height: 29px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+.kk-btn a:hover{
+    background: #000;
+    color: #fff;
+}
+.kk-btn-big a{
+    display: inline-block;
+    min-width: 190px;
+    line-height: 36px;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.kk-btn-big a:hover{
+    background: #000;
+    color: #fff;
+}
+@media screen and (min-width:1200px){
+    .kk-md-left{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:1200px){
+    .kk-md-left{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:990px){
+    .kk-md-left{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:600px){
+    .kk-btn-big a{
+        min-width: 150px;
+        line-height: 30px;
+        margin-right: 15px;
+    }
+}
+#kkx .info_title{
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#kkx .info{
+    color: #555;
+    font-size: 13px;
+    line-height: 31px;
+}
+.clear{
+    clear: both;
+}
+#kkx .info span.fa-check{
+    color: #5bb0ed;
+    font-size: 13px;
+    line-height: 26px;
+}
+#kkx .info span.fa-close{
+    color: #ee5854;
+    font-size: 13px;
+    line-height: 26px;
+}
+#kkx .download a.load{
+    display: block;
+    margin: 19px auto 10px;
+    width: 100px;
+    border: 1px solid #cce9ff;
+    border-radius: 12px;
+    color: #2e9fff;
+    font-size: 13px;
+    line-height: 24px;
+    transition: all 200ms ease-in-out;
+}
+#kkx .download{
+    text-align: center;
+}
+#kkx .download a.load:hover{
+    background: #2e9fff;
+    color: #fff;
+}
+
+#kk_sj .kk_phone{
+    color: #333;
+    font-size: 14px;
+}
+.kk_section{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.kk_hide{
+    display: none;
+}
+.kk_show{
+    display: block;
+}
+@media screen and (max-width:680px){
+    #kk_sj{
+        display: block;
+    }
+    #kk_pc{
+        display: none;
+    }
+}
